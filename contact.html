@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+
+</head>
+<body>
+     <!----------------------------navbar-------------------------------------->
+    <header>
+      <div id="menu-bar" class="fa-solid fa-bars" onclick="showmenu()"></div>
+      <div class="logo">
+        <img src="images/logo-2.png" alt="" />
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#rooms">Our Clints</a>
+
+        <a href="#services">services</a>
+        <a href="/contact.html">contact</a>
+      </nav>
+      <div class="icon">
+
+
+        <!------dark-light----------->
+        <div class="darklight-searchBox">
+          <div class="dark-light">
+            <i class="fa fa-moon moon"></i>
+            <i class="fa fa-sun sun"></i>
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            <i onclick="showlogin()"><a href="/login.html">sgin in</a></i>
+          </li>
+          <li>
+            <i onclick="showlogin()"><a href="/register.html">sgin up</a></i>
+          </li>
+
+          <li>
+            <i
+              class="fa-solid fa-magnifying-glass"
+              onclick="searchbar()"
+              id="search-btn"
+            ></i>
+          </li>
+        </ul>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="text" id="search-bar" placeholder="البحث فى الموقع" />
+        <label for="search-bar" class="fa-solid fa-magnifying-glass"></label>
+      </form>
+    </header>
+
+    
+    <!------------------contact------------------------------------>
+<section class="contact" id="contact" style="margin-top: 150px;">
+    <div class="row">
+        <div class="image">
+            <dotlottie-player class="anmation" style="width: 50rem;" src="/images/Animation/Animation-contact.json"
+            background="transparent"
+            speed="1" 
+            zdirection="1" 
+            playMode="normal" 
+            loop 
+            autoplay>
+            </dotlottie-player>
+        </div>
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">   
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">   
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+            <input type="submit" class="botn" placeholder="send message">
+        </form>
+    </div>
+</section>
+
+
+
+
+<!----------------------footer------------------------------->
+
+    <!----------------------footer------------------------------->
+
+    <footer class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>about Us</h3>
+          <img src="images/logo-2.png" alt="" />
+          <p>Your Path to Growth</p>
+          <div class="copyright">
+            <div>&copy; 2025 - <span>Connexus-Ksa</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Cities</h3>
+          <a href="#">Saudi Arabia</a>
+          <a href="#"> Riyadh</a>
+          <a href="#">Al-Qassim</a>
+          <a href="#">Dammam</a>
+          <a href="#">Mecca</a>
+          <a href="#">Jeddah</a>
+        
+        </div>
+
+        <div class="box">
+           <a href="index.html">Home</a>
+
+                <a href="index.html">About Us</a>
+                <a href="index.html">Our Clints</a>
+                <a href="index.html">services</a>
+                <a href="contact.html">contact</a>
+        </div>
+
+        <div class="box">
+          <h3>follw Us</h3>
+          <div class="icon">
+            <a class="facebook" href=""
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              class="email"
+              href=""
+              ><i class="fas fa-envelope"></i
+            ></a>
+           
+            <a class="whatsapp" href="https://wa.me/+996552627685"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+
+             
+            <a class="linkedin" href="https://www.linkedin.com/in/abo-bakr-naser-ab18292a1/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<!------------------------------------------------------------------------>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/code.js"></script>
+
+
+
+</body>
+</html>
